@@ -48,13 +48,13 @@ body {
 .container p {
   cursor: pointer;
   margin-top: -186px;
-  border: 2px solid blue;
+  border: 2px solid rgb(80, 80, 151);
   border-radius: 50px;
   padding: 10px 25px;
   font-size: 18px;
   font-weight: 600;
   background: #2d2c8685;
-  color: blue;
+  color: rgb(156, 156, 197);
 }
 @media only screen and (max-width: 400px) {
   .container {
