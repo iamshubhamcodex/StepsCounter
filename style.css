@@ -59,7 +59,7 @@ body {
 .hm {
   position: absolute;
   width: 290px;
-  height: 235px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
