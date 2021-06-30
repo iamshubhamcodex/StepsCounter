@@ -56,6 +56,30 @@ body {
   background: #2d2c8685;
   color: rgb(156, 156, 197);
 }
+.hm {
+  position: absolute;
+  width: 290px;
+  height: 235px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #102033b8;
+  border-radius: 10px;
+}
+
+.hm h2 {
+  margin: 45px 5px;
+}
+
+.hm input[type="text"] {
+  padding: 5px 15px;
+  border: none;
+  outline: none;
+  height: 25px;
+  border-radius: 14px;
+}
 @media only screen and (max-width: 400px) {
   .container {
     min-width: 97%;

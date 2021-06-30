@@ -9,10 +9,14 @@
     <title>Steps Counter</title>
   </head>
   <body>
-      <div class="container">
-          <h1>Total Steps are:<br><span class="steps"></span></h1>
-          <p> Click Me </p>
-      </div>
+    <div class="hm">
+      <h2>One Click equals:</h2>
+      <input class="inp" type="text" placeholder="Enter your Value here"/>
+    </div>
+    <div class="container">
+      <h1>Total Steps are:<br /><span class="steps"></span></h1>
+      <p>Click Me</p>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
