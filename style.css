@@ -34,7 +34,7 @@ body {
 
 .container h1 {
   font-size: 39px;
-  margin-bottom: 275px;
+  margin-bottom: 200px;
   display: grid;
   place-items: center;
   text-align: center;
@@ -46,6 +46,7 @@ body {
 }
 
 .container p {
+  margin:  0 15px;
   cursor: pointer;
   margin-top: -186px;
   border: 2px solid rgb(80, 80, 151);
@@ -55,6 +56,11 @@ body {
   font-weight: 600;
   background: #2d2c8685;
   color: rgb(156, 156, 197);
+}
+.container .btn{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .hm {
   position: absolute;

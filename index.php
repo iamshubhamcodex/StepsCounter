@@ -15,7 +15,10 @@
     </div>
     <div class="container">
       <h1>Total Steps are:<br /><span class="steps"></span></h1>
-      <p>Click Me</p>
+      <div class="btn">
+        <p class="cm">Click Me</p>
+        <p class="rm">Reset</p>
+      </div>
     </div>
     <script src="index.js"></script>
   </body>
